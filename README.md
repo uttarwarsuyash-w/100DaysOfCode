@@ -18,6 +18,6 @@ Topics Covered:
 - Unordered Map
 - List
 - Deque
-- ⬜ Day 4
+- ✅ Day 4 - Basic Maths (Part 1)
 ...
 - ⬜ Day 100

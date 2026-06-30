@@ -20,7 +20,7 @@ int main(){
     }
 
 }
-*/
+
     int n,org,sum,last;
     cin>>n;
     sum=0;
@@ -39,3 +39,52 @@ int main(){
         cout<<"no";
     }
 }
+
+    int n,cnt;
+    cnt=0;
+    cout<<"enter a number";
+    cin>>n;
+    for(int i=1;i*i<=n;i++){
+        if (n%i==0){
+            cnt++;
+            if((n/i)!=i){
+                cnt++;
+            }
+        }
+    }
+        if(cnt==2){
+            cout<<"yes it is a prime";
+        }
+        else{
+            cout<<"no";
+        }
+
+        
+
+
+    int n1,n2,gcd;
+    gcd=1;
+    n1=10;
+    n2=20;
+    for(int i=1;i<=(min(n1,n2));i++){
+        if(n1%i==0 and n2%i==0){
+            gcd=i;
+        }
+    }
+    cout<<gcd;
+}
+    */
+
+    int n1,n2,gcd;
+    gcd=1;
+    n1=10;
+    n2=20;
+    for(int i=(min(n1,n2));i>=0;i--){
+        if(n1%i==0 and n2%i==0){
+            gcd=i;
+            break;
+        }
+    }
+    cout<<gcd;
+}
+*/
